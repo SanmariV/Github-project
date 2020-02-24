@@ -1,5 +1,5 @@
 ### Date created
-2020/02/24 Monday 14:45 GMT +2
+2020/02/24 Monday 14:45 GMT +2, Location: Pretoria, South Africa
 
 ### Project Title
 Exploring Bikeshare Data with R
