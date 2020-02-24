@@ -1,18 +1,17 @@
+#Load libraries
+library(tidyverse)
+
 #Create variable to store each city's data in
 ny  <-  read.csv('new_york_city.csv')
 wash  <-  read.csv('washington.csv')
 chi  <-  read.csv('chicago.csv')
 
-#Import ggplot 2 library
-
-library(tidyverse)
-
 #Check to see if data is what we expect
-head(ny,10)
+head(ny)
 
-head(wash,10)
+head(wash)
 
-head(chi,10)
+head(chi)
 
 #Create a data frame that only contains the dates
 
