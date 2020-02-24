@@ -7,11 +7,11 @@ wash  <-  read.csv('washington.csv')
 chi  <-  read.csv('chicago.csv')
 
 #Check to see if data is what we expect
-head(ny,10)
+head(ny)
 
-head(wash,10)
+head(wash)
 
-head(chi,10)
+head(chi)
 
 #Create a data frame that only contains the dates
 
