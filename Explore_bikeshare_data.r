@@ -17,17 +17,17 @@ head(chi)
 
 #New York
 ny.date.only <- as.Date(ny$Start.Time)
-head(ny.date.only)
 
 #Chicago
 chi.date.only <- as.Date(chi$Start.Time)
-head(chi.date.only)
 
 #Washington
 wash.date.only <- as.Date(wash$Start.Time)
+
+#Check to see if data is what we expect
+head(ny.date.only)
+head(chi.date.only)
 head(wash.date.only)
-
-
 
 #Get the day of the week for each date and each city
 #New York
